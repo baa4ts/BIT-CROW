@@ -82,7 +82,18 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".github": true,
+        ".vscode": true,
+        ".gitattributes": true,
+        ".gitignore": true,
+        "notas.md": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".github",
+        ".vscode",
+        ".gitattributes",
+        ".gitignore",
+        "notas.md"
+    ]
 }
