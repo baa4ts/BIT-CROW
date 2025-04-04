@@ -1,4 +1,4 @@
-![Logo](/.github/icono.png)
+![Logo](/github/icono.png)
 
 # BIT CROW  
 > Un spyware simple y ligero escrito en C++.  
